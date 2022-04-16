@@ -7,7 +7,7 @@ import { createServer } from "miragejs"
 createServer({
   routes() {
     this.namespace = "api"
-    this.get("/transctions", () => {
+    this.get("/transactions", () => {
       return [
         {
           id: 1,
